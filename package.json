@@ -1,0 +1,30 @@
+{
+  "name": "tsiram-422",
+  "version": "0.0.1",
+  "description": "A Virtual 6502 Computer built in TypeScript running in Node.js",
+  "main": "dist/System.js",
+  "dependencies": {
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.6"
+  },
+  "scripts": {
+    "start": "node ./dist/System.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaristGormanly/422-tsiram.git"
+  },
+  "keywords": [
+    "6502",
+    "Virtual Machine"
+  ],
+  "author": "brian.gormanly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaristGormanly/422-tsiram/issues"
+  },
+  "homepage": "https://github.com/MaristGormanly/422-tsiram#readme"
+}
